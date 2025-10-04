@@ -1,0 +1,24 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#box1 {
+    height: 300px;
+    width: 300px;
+    /* background: linear-gradient(crimson, white, green); */
+    /* background: radial-gradient(yellow,red, black); */
+    background: conic-gradient(yellow, red, black);
+}    
