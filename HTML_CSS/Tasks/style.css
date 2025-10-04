@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(1, 1, 97);
+    height: 30%;
+    padding-top: 5%;
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header Section */
+header p {
+    font-style: italic;
+    padding-top: 20px;
+    /* font-weight: 200; */
+}
+
+/* About me Section */
+#about{
+    height: 30%;
+    margin-top: 25px;
+    background-color: white;
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 25px;
+    font-family: Arial,sans-srif;
+    /* line-height: 1.5; */
+    margin-bottom: 20px;
+    
+}
+#about h2{
+    color: black;
+    padding-top: 25px;
+    font-size: 25px;
+}
+#about p{
+    color: grey;
+    padding-top: 15px;
+}
+
+/* Education Section   */
+
+#edu {
+    height: 220px;
+    text-align: center;
+    background-color: lightblue;
+    margin: 0% 10% 0% 10%;
+    margin-bottom: 25px;
+    
+}
+
+#edu h2 {
+    padding: 25px;;
+    font-size: 25px;
+    font-family: Arial,sans-srif;
+}
+
+#btech {
+    height: 10%;
+    text-align: center;
+    background-color: lightblue;
+    margin: 0% 10% 0% 10%;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#school {
+    height: 15%;
+    text-align: center;
+    background-color: lightblue;
+    margin: 0% 10% 0% 10%;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+} 
+
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Skills Section */
+#skills {
+    height: 320px;
+    text-align: center;
+    background-color: rgb(255, 227, 137);
+    margin: 0% 10% 0% 10%;
+    margin-bottom: 25px;
+}
+
+#skills h2 {
+    padding: 25px;;
+    font-size: 25px;
+    font-family: Arial,sans-srif;
+}
+
+#frontend {
+    height: 15%;
+    text-align: center;
+    background-color: lightblue;
+    margin: 0% 10% 0% 10%;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#java {
+    height: 15%;
+    text-align: center;
+    background-color: lightblue;
+    margin: 0% 10% 0% 10%;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#js {
+    height: 15%;
+    text-align: center;
+    background-color: lightblue;
+    margin: 0% 10% 0% 10%;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#design {
+    height: 15%;
+    text-align: center;
+    background-color: lightblue;
+    margin: 0% 10% 0% 10%;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.skill {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Project Section */
+#projects {
+    height: 230px;
+    text-align: center;
+    background-color: rgb(161, 185, 253);
+    margin: 0% 10% 0% 10%;
+    margin-bottom: 25px;
+}
+
+#projects h2 {
+    padding: 25px;;
+    font-size: 25px;
+    font-family: Arial,sans-srif;
+}
+
+#portfolio {
+    height: 15%;
+    text-align: center;
+    background-color: lightblue;
+    margin: 0% 10% 0% 10%;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#landing {
+    height: 15%;
+    text-align: center;
+    background-color: lightblue;
+    margin: 0% 10% 0% 10%;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#blog {
+    height: 15%;
+    text-align: center;
+    background-color: lightblue;
+    margin: 0% 10% 0% 10%;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.project{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    height: 45px;
+    background-color: rgb(1, 1, 97);
+    color: white;
+    text-align: center;
+    padding:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
