@@ -66,3 +66,8 @@ html, body{
     background-color: rgb(60, 166, 252);
     color: white;
 }
+
+#card button:hover {
+    background-color: black;
+    cursor: pointer;
+}

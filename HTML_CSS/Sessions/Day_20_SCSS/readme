@@ -1,0 +1,19 @@
+INRODUCTION TO SCSS
+-------------------------------------
+- tHree main imp concepts
+    - nEsting
+    - mIxins (works like a function)
+        - used to avoid repeatition of code in css
+        - same code which has to be used on various elements is wriiten in mixin and further "mixin" is "included" at the specific position
+
+        Example of mixin
+        @mixin flex-center($flex-dir:row){
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: $flex-dir;
+        }
+
+    - pArtials & iMports
+        - small codes are written in another files by crating mixins in those files such that those files are imported inside in 
+          main file (style.scss)
